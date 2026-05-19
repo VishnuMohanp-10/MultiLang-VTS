@@ -1,13 +1,13 @@
 # MultiLang-VTS
-# Real-time Multilang VTS
 
-A web application that allows users to upload YouTube video URLs or real-time video links and select a preferred language. The app processes the video, converts its audio into text, and returns a summarized version of the content in the selected language — capturing key insights from the video.
+A web application that allows users to upload YouTube video and it process the video amd generate transcripts and summaries in preferred language. The app processes the video, converts its audio into text, and returns a summarized version of the content in the selected language — capturing key insights from the video.
 
 ---
 
 ## Key Features
 
-- Real-time video processing and transcription
+- Video processing and Transcription + Summarization a unified pipeline .
+- Upload a video file and it process and gives transcription and summarization efficiently.
 - Multi-language support
 - Summarized output with key points
 - Supports YouTube video URLs and live video links
@@ -20,7 +20,6 @@ A web application that allows users to upload YouTube video URLs or real-time vi
 - Python
 - FastAPI – backend API framework
 - Whisper – for speech recognition and transcription
-- WebSockets – for real-time communication
 - HTML/CSS/JavaScript – frontend
 
 ---
